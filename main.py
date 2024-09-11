@@ -38,7 +38,23 @@ def main():
         elif escolha == 6:
             pass
         elif escolha == 7:
-            pass
+            # Lista de filmes de romance
+            filmes_de_romance = [
+                "A Culpa é das Estrelas",
+                "P.S. Eu Te Amo",
+                "Como Eu Era Antes de Você",
+                "Diário de uma Paixão",
+                "A Bella e a Fera",
+                "O Lado Bom da Vida",
+                "La La Land",
+                "Orgulho e Preconceito",
+                "500 Dias com Ela",
+                "Amor e Outras Drogas"
+            ]
+
+            # Imprimir os filmes de romance
+            for filme in filmes_de_romance:
+                print(f"- {filme}")
         elif escolha == 8:
             pass
         elif escolha == 9:
