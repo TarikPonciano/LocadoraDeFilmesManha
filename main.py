@@ -74,7 +74,20 @@ def main():
         elif escolha == 4:
             pass
         elif escolha == 5:
-            pass
+            print("ficçao cientifica")
+            filmes = ["O Homem do Futuro (2011) - Dirigido por Cláudio Torres",
+                "A Máquina (2012) - Dirigido por João Falcão",
+                "Os Trapalhões na Guerra dos Planetas (1978) - Dirigido por Alberto Renato e J.B. Tanko",
+                "O Candidato (2019) - Dirigido por Zé Pedro Goulart",
+                "O Contador de Histórias (2009) - Dirigido por Luiz Villaça",
+                "A Morte Negra (2022) - Dirigido por Otávio Juliano",
+                "A Lenda do Caboclo (2014) - Dirigido por Roberta Marques",
+                "A Terra de Ninguém (2009) - Dirigido por Fernando Coimbra",
+                "São Jorge (2016) - Dirigido por Marco Dutra",
+                "O Invasor (2001) - Dirigido por Beto Brant e Renato Ciasca"]
+            
+            for filme in filmes:
+                print(filme)
         elif escolha == 6:
             print("O Senhor dos Anéis: A Sociedade do Anel (2001)")
             print("Harry Potter e a Pedra Filosofal (2001)")
