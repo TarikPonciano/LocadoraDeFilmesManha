@@ -127,6 +127,17 @@ def main():
         elif escolha == 13:
             pass
         elif escolha == 14:
+            #Lista de filmes Policiais
+            print("O Poderoso Chefão" (1972))
+            print("Os Suspeitos" (1995))
+            print("Se7en - Os Sete Crimes Capitais" (1995))
+            print("Silêncio dos Inocentes" (1991))
+            print("Zodiac" (2007))
+            print("Cidade de Deus" (2002))
+            print("Os Infiltrados" (2006))
+            print("Prenda-me se For Capaz" (2002))
+            print("Oldboy" (2003))
+            print("Chinatown" (1974))
             pass
         elif escolha == 15:
             pass
