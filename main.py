@@ -45,6 +45,16 @@ def main():
         elif escolha == 5:
             pass
         elif escolha == 6:
+            print("O Senhor dos Anéis: A Sociedade do Anel (2001)")
+            print("Harry Potter e a Pedra Filosofal (2001)")
+            print("O Hobbit: Uma Jornada Inesperada (2012)")
+            print("A Princesa Prometida (1987)")
+            print("Pan's Labyrinth (2006)")
+            print("As Crônicas de Nárnia: O Leão, a Feiticeira e o Guarda-Roupa (2005)")
+            print("O Labirinto do Fauno (2006)")
+            print("Star Wars: Episódio IV - Uma Nova Esperança (1977)")
+            print("A História Sem Fim (1984)")
+            print("Avatar (2009)")
             pass
         elif escolha == 7:
             pass
