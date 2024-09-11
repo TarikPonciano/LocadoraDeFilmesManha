@@ -147,7 +147,22 @@ def main():
         elif escolha == 12:
             pass
         elif escolha == 13:
-            pass
+            # Lista de 10 filmes musicais
+            musical_films = [
+                "The Sound of Music",
+                "Singin' in the Rain",
+                "Grease",
+                "West Side Story",
+                "Chicago",
+                "La La Land",
+                "Mamma Mia!",
+                "Les Misérables",
+                "The Rocky Horror Picture Show",
+                "Hairspray"
+            ]
+
+            for film in musical_films:
+                print(f"- {film}")
         elif escolha == 14:
             pass
         elif escolha == 15:
