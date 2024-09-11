@@ -72,7 +72,18 @@ def main():
             print("A Noite do Jogo (2018)")
             pass
         elif escolha == 4:
-            pass
+            
+            print("Titanic.")
+            print("O menino do pijama listrado.")
+            print("A Lista de Schindler.")
+            print("Forrest Gump.")
+            print("O Poderoso Chefão.")
+            print("A Rede Social.")
+            print("O Sol é para Todos.")
+            print("Clube da Luta.")
+            print("Beleza Americana.")
+            print("O Pianista.")
+
         elif escolha == 5:
             print("ficçao cientifica")
             filmes = ["O Homem do Futuro (2011) - Dirigido por Cláudio Torres",
