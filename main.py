@@ -34,7 +34,7 @@ def main():
         elif escolha == 4:
             pass
         elif escolha == 5:
-            print = filmes("ficçao cientifica")
+            print("ficçao cientifica")
             filmes = ["O Homem do Futuro (2011) - Dirigido por Cláudio Torres",
                 "A Máquina (2012) - Dirigido por João Falcão",
                 "Os Trapalhões na Guerra dos Planetas (1978) - Dirigido por Alberto Renato e J.B. Tanko",
@@ -45,6 +45,9 @@ def main():
                 "A Terra de Ninguém (2009) - Dirigido por Fernando Coimbra",
                 "São Jorge (2016) - Dirigido por Marco Dutra",
                 "O Invasor (2001) - Dirigido por Beto Brant e Renato Ciasca"]
+            
+            for filme in filmes:
+                print(filme)
         elif escolha == 6:
             pass
         elif escolha == 7:
