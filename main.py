@@ -23,6 +23,8 @@ def main():
     try:
         escolha = int(input("Digite o número do gênero escolhido: "))
         
+        #Faça modificações apenas na seção do seu número
+        #Faça o print de 10 filmes do gênero selecionado
         if escolha == 1:
             pass
         elif escolha == 2:
