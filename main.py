@@ -1,3 +1,6 @@
+import filmes10
+
+
 def exibir_menu():
     print("Escolha um gênero de filme:")
     print("1. Ação")
@@ -17,14 +20,15 @@ def exibir_menu():
     print("15. Guerra")
     print("16. Histórico")
 
+
 def main():
     exibir_menu()
-    
+
     try:
         escolha = int(input("Digite o número do gênero escolhido: "))
-        
-        #Faça modificações apenas na seção do seu número
-        #Faça o print de 10 filmes do gênero selecionado
+
+        # Faça modificações apenas na seção do seu número
+        # Faça o print de 10 filmes do gênero selecionado
         if escolha == 1:
             pass
         elif escolha == 2:
@@ -44,7 +48,7 @@ def main():
         elif escolha == 9:
             pass
         elif escolha == 10:
-            pass
+            filmes10.misterio()
         elif escolha == 11:
             pass
         elif escolha == 12:
@@ -59,11 +63,10 @@ def main():
             pass
         else:
             print("Gênero inválido!")
-        
-        
-    
+
     except ValueError:
         print("Entrada inválida. Por favor, digite um número.")
+
 
 if __name__ == "__main__":
     main()
