@@ -42,7 +42,16 @@ def main():
         elif escolha == 8:
             pass
         elif escolha == 9:
-            pass
+            print(f'''01 > Seven: Os Sete Crimes Capitais (1995)
+                  02 > Ilha do Medo (2010)
+                  03 > Cisne Negro (2010)
+                  04 > O Silêncio dos Inocentes (1991)
+                  05 > A Origem (2010)
+                  06 > O Sexto Sentido (1999)
+                  07 > Garota Exemplar (2014)
+                  08 > Corra! (2017)
+                  09 > Oldboy (2003)
+                  10 > Prisioners (2013)''')
         elif escolha == 10:
             pass
         elif escolha == 11:
