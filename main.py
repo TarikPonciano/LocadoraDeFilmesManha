@@ -39,7 +39,26 @@ def main():
             print("O Exterminador do Futuro 2: O Julgamento Final (1991)")
             print()
         elif escolha == 2:
-            pass
+            
+            filmes_aventura = [
+    "Indiana Jones e os Caçadores da Arca Perdida",
+    "O Senhor dos Anéis: A Sociedade do Anel",
+    "Jurassic Park",
+    "Piratas do Caribe: A Maldição do Pérola Negra",
+    "Harry Potter e a Pedra Filosofal",
+    "A Jornada de Chihiro",
+    "As Aventuras de Tintim",
+    "O Hobbit: Uma Jornada Inesperada",
+    "Star Wars: Episódio IV - Uma Nova Esperança",
+    "Jumanji"
+            ]
+
+            contador = 1
+            print("--- Filmes de Aventura ---\n")
+            for filme in filmes_aventura:
+                print(f"{contador}.",filme)
+                contador += 1
+
         elif escolha == 3:
             print("A Grande Família (2006)")
             print("Os Caça-Fantasmas (1984)")
