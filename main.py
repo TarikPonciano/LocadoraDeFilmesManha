@@ -106,7 +106,16 @@ def main():
             for filme in filmes_de_romance:
                 print(f"- {filme}")
         elif escolha == 8:
-            pass
+            print("1. Alice no País das Trevas")
+            print("2. O Exorcista")
+            print("3. Invocação do Mal")
+            print("4. A Freira")
+            print("5. Annabelle")
+            print("6. Sobrenatural")
+            print("7. A Entidade")
+            print("8. Ouija")
+            print("9. Cuidado com quem chama")
+            print("10. O Exorcismo de Emily Rose")
         elif escolha == 9:
             print(f'''01 > Seven: Os Sete Crimes Capitais (1995)
                   02 > Ilha do Medo (2010)
