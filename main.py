@@ -166,7 +166,17 @@ def main():
         elif escolha == 14:
             pass
         elif escolha == 15:
-            pass
+            filmesguerra = ['"O Resgate do Soldado Ryan" (1998)', '"Apocalypse Now" (1979)', '"A Lista de Schindler" (1993)', '"1917" (2019)','"Full Metal Jacket" (1987)','"Dunkerque" (2017)','"O Grande Ditador" (1940)','"O Pianista" (2002)', '"Corações de Ferro" (2014)', '"Hacksaw Ridge: O Coragem de um Heroi" (2016)']
+            contadorposicao = 0
+            
+            print("\nFilmes sobre Guerra:")
+            for fg in filmesguerra:
+                contadorposicao += 1
+                if contadorposicao < 10:
+                    print(f"({contadorposicao}. ) - {fg}")
+                else:
+                    print(f"({contadorposicao}.) - {fg}")
+            print("\n")
         elif escolha == 16:
             pass
         else:
