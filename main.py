@@ -30,7 +30,18 @@ def main():
         elif escolha == 3:
             pass
         elif escolha == 4:
-            pass
+            
+            print("Titanic.")
+            print("O menino do pijama listrado.")
+            print("A Lista de Schindler.")
+            print("Forrest Gump.")
+            print("O Poderoso Chefão.")
+            print("A Rede Social.")
+            print("O Sol é para Todos.")
+            print("Clube da Luta.")
+            print("Beleza Americana.")
+            print("O Pianista.")
+
         elif escolha == 5:
             pass
         elif escolha == 6:
