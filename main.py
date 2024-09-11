@@ -41,6 +41,16 @@ def main():
         elif escolha == 2:
             pass
         elif escolha == 3:
+            print("A Grande Família (2006)")
+            print("Os Caça-Fantasmas (1984)")
+            print("Superbad - É Hoje (2007)")
+            print("Se Beber, Não Case! (2009)")
+            print("O Ânimos do Pai (2003)")
+            print("O Ditador (2012)")
+            print("As Branquelas (2004)")
+            print("A Ressaca (2011)")
+            print("O Virgem de 40 Anos (2005)")
+            print("A Noite do Jogo (2018)")
             pass
         elif escolha == 4:
             pass
