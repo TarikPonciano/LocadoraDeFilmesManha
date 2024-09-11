@@ -164,6 +164,17 @@ def main():
             for film in musical_films:
                 print(f"- {film}")
         elif escolha == 14:
+            #Lista de filmes Policiais
+            print("O Poderoso Chefão" (1972))
+            print("Os Suspeitos" (1995))
+            print("Se7en - Os Sete Crimes Capitais" (1995))
+            print("Silêncio dos Inocentes" (1991))
+            print("Zodiac" (2007))
+            print("Cidade de Deus" (2002))
+            print("Os Infiltrados" (2006))
+            print("Prenda-me se For Capaz" (2002))
+            print("Oldboy" (2003))
+            print("Chinatown" (1974))
             pass
         elif escolha == 15:
             filmesguerra = ['"O Resgate do Soldado Ryan" (1998)', '"Apocalypse Now" (1979)', '"A Lista de Schindler" (1993)', '"1917" (2019)','"Full Metal Jacket" (1987)','"Dunkerque" (2017)','"O Grande Ditador" (1940)','"O Pianista" (2002)', '"Corações de Ferro" (2014)', '"Hacksaw Ridge: O Coragem de um Heroi" (2016)']
