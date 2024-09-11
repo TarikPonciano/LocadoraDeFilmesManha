@@ -49,7 +49,16 @@ def main():
         elif escolha == 7:
             pass
         elif escolha == 8:
-            pass
+            print("1. Alice no País das Trevas")
+            print("2. O Exorcista")
+            print("3. Invocação do Mal")
+            print("4. A Freira")
+            print("5. Annabelle")
+            print("6. Sobrenatural")
+            print("7. A Entidade")
+            print("8. Ouija")
+            print("9. Cuidado com quem chama")
+            print("10. O Exorcismo de Emily Rose")
         elif escolha == 9:
             pass
         elif escolha == 10:
