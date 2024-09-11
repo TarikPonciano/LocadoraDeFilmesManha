@@ -26,7 +26,16 @@ def main():
         #Faça modificações apenas na seção do seu número
         #Faça o print de 10 filmes do gênero selecionado
         if escolha == 1:
-            pass
+            print("Batman: O Cavaleiro das Trevas (2008)")
+            print("A Origem (2010)")
+            print("Matrix (1999)")
+            print("O Senhor dos Anéis: O Retorno do Rei (2003)")
+            print("Gladiador (2000)")
+            print("Duro de Matar (1988)")
+            print("Mad Max: Estrada da Fúria (2015)")
+            print("Os Vingadores (2012)")
+            print("John Wick: De Volta ao Jogo (2014)")
+            print("O Exterminador do Futuro 2: O Julgamento Final (1991)")
         elif escolha == 2:
             pass
         elif escolha == 3:
